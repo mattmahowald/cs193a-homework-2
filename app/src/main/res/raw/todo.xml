@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="todo">
+        <item>Android</item>
+        <item>iPhone</item>
+        <item>Max OS X</item>
+    </string-array>
+</resources>
