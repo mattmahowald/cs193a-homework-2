@@ -10,12 +10,22 @@
     tools:context="com.example.mattmahowald.todolistapp.ListActivity"
     android:id="@+id/relativeLayout"
     android:background="#daffce">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="MY TODO LIST"
-        android:textSize="28dp"
-        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MY TODO LIST"
+            android:textSize="28dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add items to your to do list, then click and hold to remove them from the list."/>
+    </LinearLayout>
+
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
